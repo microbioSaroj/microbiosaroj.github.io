@@ -490,13 +490,6 @@ ninja.data = [{
           window.open("https://github.com/microbiosaroj", "_blank");
         },
       },{
-        id: 'social-instagram',
-        title: 'Instagram',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://instagram.com/microbiosaroj", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
