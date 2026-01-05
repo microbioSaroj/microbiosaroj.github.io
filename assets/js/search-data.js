@@ -405,8 +405,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-launched-my-personal-website-using-al-folio-theme-for-academic-websites-available-in-github-this-website-is-not-fully-updated-yet",
-          title: 'Launched my personal website using al-folio theme for academic websites available in GitHub....',
+            },},{id: "news-excited-to-launch-my-personal-website-created-using-al-folio-theme-available-on-github-this-website-is-not-fully-updated-yet",
+          title: 'Excited to launch my personal website created using al-folio theme available on GitHub....',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
