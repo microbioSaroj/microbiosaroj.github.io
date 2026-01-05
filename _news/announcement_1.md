@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Launched my personal website using al-folio theme for academic websites available in GitHub. This website is not fully updated yet.
+Excited to launch my personal website created using al-folio theme available on GitHub. This website is not fully updated yet.
