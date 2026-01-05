@@ -2,14 +2,13 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Candidate at the University of Pittsburgh
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>khadka@pitt.edu</p>
     <p>University of Pittsburgh</p>
+    <p>Department of Medicine</p>
     <p>Pennsylvania, USA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -26,8 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Greetings! I am a PhD Candidate at the University of Pittsburgh, working under the supervision of Dr. Laura A. Mike (themikelab.com
+). My research in the Mike Lab focuses on the molecular mechanisms and regulation of capsular polysaccharide–associated phenotypes in Klebsiella pneumoniae, particularly those linked to bacterial fitness and virulence.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to joining the PhD program, I earned an MS in Medical Microbiology (2019) and a BS in Microbiology (2016) from Tribhuvan University, Nepal. I also have experience as a medical microbiologist in clinical diagnostic settings. My research expertise spans molecular microbiology, bacterial genetics, high-throughput phenotypic screening, polysaccharide biochemistry, and protein structure–function analysis. I am particularly skilled in dissecting regulatory networks that control bacterial virulence traits, integrating experimental and computational approaches to better understand pathogen behavior and adaptation.
