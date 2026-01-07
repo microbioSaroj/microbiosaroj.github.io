@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Saroj Khadka",
-    "label": "Graduate Research Assistant",
+    "label": "Graduate Student Researcher",
     "image": "",
     "email": "khadka@pitt.edu",
-    "phone": "(912) 123-4567",
+    "phone": "",
     "url": "https://sarojkhadka.com/",
     "summary": "Biomedical Science PhD candidate with strong research experience in bacterial virulence mechanisms, host-pathogen interactions, and microbial gene regulation. Skilled in molecular biology and microbiological techniques, mentoring and science communication. Motivated to build an independent career in biomedical research.",
     "location": {
@@ -16,21 +16,21 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "microbioSaroj",
+        "url": "https://www.linkedin.com/in/microbiosaroj/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
+      "name": "Department of Medicine/Division of Infectious Diseases, University of Pittsburgh",
+      "position": "Graduate Student Researcher",
+      "url": "https://www.pmi.pitt.edu/people/ant-303",
+      "startDate": "2024-08-01",
+      "endDate": "Present",
       "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "highlights": [""]
     }
   ],
   "volunteer": [
@@ -53,9 +53,20 @@
       "area": "Microbiology and Immunology",
       "studyType": "PhD",
       "startDate": "2021-08-01",
-      "endDate": "2026-07-30 (expected)",
+      "endDate": "2026-07-30",
       "score": "",
-      "courses": [""]
+      "courses": ["Academic Advisor: Dr. Laura A. Mike"]
+    }
+     {
+      "institution": "Tribhuvan University",
+      "location": "Kathmandu, Nepal",
+      "url": "https://microbiotu.edu.np/",
+      "area": "Medical Microbiology",
+      "studyType": "MS",
+      "startDate": "2015-08-01",
+      "endDate": "2017-07-30",
+      "score": "",
+      "courses": ["Thesis Advisor: Dr. Megharaj Banjara"]
     }
   ],
   "awards": [
