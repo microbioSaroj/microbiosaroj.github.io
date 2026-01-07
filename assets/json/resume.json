@@ -62,11 +62,22 @@
       "location": "Kathmandu, Nepal",
       "url": "https://microbiotu.edu.np/",
       "area": "Medical Microbiology",
-      "studyType": "PhD",
+      "studyType": "MS",
       "startDate": "2015-08-01",
       "endDate": "2017-07-30",
       "score": "",
-      "courses": ["Academic Advisor: Dr. Laura A. Mike"]
+      "courses": ["Thesis Supervisor: Dr. Megharaj Banjara"]
+    },
+    {
+      "institution": "Tribhuvan University",
+      "location": "Kathmandu, Nepal",
+      "url": "https://microbiotu.edu.np/",
+      "area": "Microbiology",
+      "studyType": "BS",
+      "startDate": "2011-12-01",
+      "endDate": "2014-11-29",
+      "score": "",
+      "courses": [""]
     }
   ],
   "awards": [
