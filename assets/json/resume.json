@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Saroj Khadka",
-    "label": "Scientist",
+    "label": "Graduate Research Assistant",
     "image": "",
-    "email": "albert@einstein.de",
+    "email": "khadka@pitt.edu",
     "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "url": "https://sarojkhadka.com/",
     "summary": "Biomedical Science PhD candidate with strong research experience in bacterial virulence mechanisms, host-pathogen interactions, and microbial gene regulation. Skilled in molecular biology and microbiological techniques, mentoring and science communication. Motivated to build an independent career in biomedical research.",
     "location": {
-      "address": "2712 Broadway St",
+      "address": "..",
       "postalCode": "PA 15213",
       "city": "Pittsburgh",
       "countryCode": "US",
