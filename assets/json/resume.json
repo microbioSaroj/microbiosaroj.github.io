@@ -12,7 +12,7 @@
       "postalCode": "PA 15213",
       "city": "Pittsburgh",
       "countryCode": "US",
-      "region": "California"
+      "region": ""
     },
     "profiles": [
       {
@@ -56,15 +56,26 @@
       "endDate": "2026-07-30",
       "score": "",
       "courses": ["Academic Advisor: Dr. Laura A. Mike"]
+    },
+    {
+      "institution": "Tribhuvan University",
+      "location": "Kathmandu, Nepal",
+      "url": "https://microbiotu.edu.np/",
+      "area": "Medical Microbiology",
+      "studyType": "PhD",
+      "startDate": "2015-08-01",
+      "endDate": "2017-07-30",
+      "score": "",
+      "courses": ["Academic Advisor: Dr. Laura A. Mike"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
+      "title": "Predoctoral Fellowship",
       "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
+      "awarder": "American Heart Association",
       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "summary": "AHA Predoctoral Fellowship is awarded to students in predoctoral or clinical degree who intend to work as a scientist, physician or related careers aimed at improving global health.'"
     }
   ],
   "certificates": [
