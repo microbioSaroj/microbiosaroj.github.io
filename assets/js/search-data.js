@@ -67,8 +67,8 @@ ninja.data = [{
             },},{id: "news-excited-to-launch-my-personal-website-created-using-al-folio-theme-available-on-github-this-website-is-not-fully-updated-yet",
           title: 'Excited to launch my personal website created using al-folio theme available on GitHub....',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
+          section: "News",},{id: "projects-project-new",
+          title: 'project NEW',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
