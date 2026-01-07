@@ -454,13 +454,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-bluesky',
-        title: 'Bluesky',
-        section: 'Socials',
-        handler: () => {
-          window.open("microbiosaroj", "_blank");
-        },
-      },{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
@@ -468,18 +461,11 @@ ninja.data = [{
           window.open("/assets/pdf/example_pdf.pdf", "_blank");
         },
       },{
-        id: 'social-email',
-        title: 'email',
+        id: 'social-scholar',
+        title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6B%68%61%64%6B%61@%70%69%74%74.%65%64%75", "_blank");
-        },
-      },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/microbiosaroj", "_blank");
+          window.open("https://scholar.google.com/citations?user=3-dbVhIAAAAJ", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -489,11 +475,25 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/microbiosaroj", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
+        id: 'social-email',
+        title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=3-dbVhIAAAAJ", "_blank");
+          window.open("mailto:%6B%68%61%64%6B%61@%70%69%74%74.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("microbiosaroj", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/microbiosaroj", "_blank");
         },
       },{
       id: 'light-theme',
