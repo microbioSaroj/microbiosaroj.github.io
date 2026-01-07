@@ -1,16 +1,16 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Saroj Khadka",
     "label": "Scientist",
     "image": "",
     "email": "albert@einstein.de",
     "phone": "(912) 123-4567",
     "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "Biomedical Science PhD candidate with strong research experience in bacterial virulence mechanisms, host-pathogen interactions, and microbial gene regulation. Skilled in molecular biology and microbiological techniques, mentoring and science communication. Motivated to build an independent career in biomedical research.",
     "location": {
       "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "postalCode": "PA 15213",
+      "city": "Pittsburgh",
       "countryCode": "US",
       "region": "California"
     },
@@ -47,15 +47,15 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Pittsburgh",
+      "location": "Pennsylvania, USA",
+      "url": "https://www.pitt.edu/",
+      "area": "Microbiology and Immunology",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2021-08-01",
+      "endDate": "2026-07-30 (expected)",
+      "score": "",
+      "courses": [""]
     }
   ],
   "awards": [
