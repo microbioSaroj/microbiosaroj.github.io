@@ -1,13 +1,13 @@
 metadata:
-  last_updated: '2026-01-26'
+  last_updated: '2026-02-06'
 papers:
+  3-dbVhIAAAAJ:5nxA0vEk-isC:
+    citations: 1
+    title: Connections between Klebsiella pneumoniae bloodstream dynamics and serotype-independent capsule properties
+    year: '2026'
   3-dbVhIAAAAJ:LkGwnXOMwfcC:
     citations: 5
     title: Mechanisms governing bacterial capsular polysaccharide attachment and chain length
-    year: '2025'
-  3-dbVhIAAAAJ:Se3iqnhoufwC:
-    citations: 1
-    title: Connections between Klebsiella pneumoniae Bloodstream Dynamics and Serotype-Independent Capsule Properties
     year: '2025'
   3-dbVhIAAAAJ:Tyk-4Ss8FVUC:
     citations: 39
@@ -18,7 +18,7 @@ papers:
     title: Sugar Import Suppresses Klebsiella pneumoniae Mucoidy in cAMP-CRP-dependent Manner
     year: '2025'
   3-dbVhIAAAAJ:W7OEmFMy1HYC:
-    citations: 12
+    citations: 13
     title: Characterization of Klebsiella pneumoniae Extracellular Polysaccharides
     year: '2023'
   3-dbVhIAAAAJ:Y0pCki6q_DkC:
@@ -30,11 +30,11 @@ papers:
     title: Cultivation and Genomic DNA Extraction of Klebsiella pneumoniae
     year: '2024'
   3-dbVhIAAAAJ:d1gkVwhDpl0C:
-    citations: 20
+    citations: 21
     title: Antimicrobial Resistance in Salmonella Typhi Isolated From a Referral Hospital of Kathmandu, Nepal
     year: '2021'
   3-dbVhIAAAAJ:roLk4NBRz8UC:
-    citations: 12
+    citations: 14
     title: Arginine regulates the mucoid phenotype of hypervirulent Klebsiella pneumoniae
     year: '2025'
   3-dbVhIAAAAJ:u-x6o8ySG0sC:
