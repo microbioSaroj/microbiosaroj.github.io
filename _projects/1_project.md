@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-Test.
+Test. Test.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
