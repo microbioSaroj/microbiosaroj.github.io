@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project NEW
+title: Systems conrolling <i>Klebsiella pneumoniae</i> capsular polysaccharide chain length and attachment
 description: with background image
 img: assets/img/12.jpg
 importance: 1
