@@ -2,7 +2,7 @@
 layout: page
 title: Antimicrobial resistance in Salmonella Typhi clinical isolates
 description: MS Project
-img: assets/img/3.jpg
+img: assets/img/SalmonellaMS.jpg
 importance: 2
 category: Research
 giscus_comments: true
