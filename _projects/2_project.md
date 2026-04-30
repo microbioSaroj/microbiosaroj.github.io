@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: Antimicrobial resistance in Salmonella Typhi clinical isolates
+title: Antimicrobial resistance in Salmonella Typhi clinical isolates
+description: MS Project
 img: assets/img/3.jpg
 importance: 2
 category: Research
