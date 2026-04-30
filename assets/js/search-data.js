@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-test-post",
         
-          title: "a post with plotly.js",
+          title: "A test post",
         
-        description: "this is what included plotly.js code could look like",
+        description: "This is what an example blog post will look like.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/test/";
+            window.location.href = "/blog/2026/test/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
