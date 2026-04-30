@@ -2,7 +2,7 @@
 layout: page
 title: Systems controlling Klebsiella pneumoniae capsular polysaccharide chain length and attachment
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/KlebProject.jpg
 importance: 1
 category: work
 related_publications: true
