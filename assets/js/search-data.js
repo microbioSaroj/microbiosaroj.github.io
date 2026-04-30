@@ -413,9 +413,9 @@ ninja.data = [{
           description: "PhD Project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "Antimicrobial resistance in Salmonella Typhi clinical isolates",
+            },},{id: "projects-antimicrobial-resistance-in-salmonella-typhi-clinical-isolates",
+          title: 'Antimicrobial resistance in Salmonella Typhi clinical isolates',
+          description: "MS Project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
