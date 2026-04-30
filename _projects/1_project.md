@@ -4,7 +4,7 @@ title: Systems controlling Klebsiella pneumoniae capsular polysaccharide chain l
 description: with background image
 img: assets/img/KlebProject.jpg
 importance: 1
-category: Professional
+category: Research
 related_publications: true
 ---
 
