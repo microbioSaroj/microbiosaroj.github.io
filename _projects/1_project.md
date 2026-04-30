@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Systems controlling <i<Klebsiella pneumoniae</i> capsular polysaccharide chain length and attachment
+title: Systems controlling <em<Klebsiella pneumoniae</em> capsular polysaccharide chain length and attachment
 description: with background image
 img: assets/img/KlebProject.jpg
 importance: 1
