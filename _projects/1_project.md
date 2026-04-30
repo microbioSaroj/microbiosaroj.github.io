@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project NEW
+title: project1 NEW
 description: with background image
 img: assets/img/12.jpg
 importance: 1
