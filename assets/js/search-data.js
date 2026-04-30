@@ -410,7 +410,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-systems-controlling-capsular-polysaccharide-chain-length-and-attachment",
           title: 'Systems controlling  capsular polysaccharide chain length and attachment',
-          description: "with background image",
+          description: "PhD Project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
