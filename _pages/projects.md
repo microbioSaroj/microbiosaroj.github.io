@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of Saroj's research and personal projects.
 nav: true
 nav_order: 2
-display_categories: [Professional, fun]
+display_categories: [Research, Personal]
 horizontal: false
 ---
 
