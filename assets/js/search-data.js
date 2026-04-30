@@ -408,8 +408,8 @@ ninja.data = [{
             },},{id: "news-excited-to-launch-my-personal-website-created-using-al-folio-theme-available-on-github-this-website-is-not-fully-updated-yet",
           title: 'Excited to launch my personal website created using al-folio theme available on GitHub....',
           description: "",
-          section: "News",},{id: "projects-systems-controlling-lt-klebsiella-pneumoniae-capsular-polysaccharide-chain-length-and-attachment",
-          title: 'Systems controlling &amp;lt;Klebsiella pneumoniae capsular polysaccharide chain length and attachment',
+          section: "News",},{id: "projects-systems-controlling-klebsiella-pneumoniae-capsular-polysaccharide-chain-length-and-attachment",
+          title: 'Systems controlling Klebsiella pneumoniae capsular polysaccharide chain length and attachment',
           description: "PhD Project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
