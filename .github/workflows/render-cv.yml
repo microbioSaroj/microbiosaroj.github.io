@@ -49,9 +49,6 @@ jobs:
           image = cv.pop("image", None)
           summary = cv.pop("summary", None)
           address = cv.pop("address", {})
-          degree = cv.pop("degree", None)
-          if degree:
-              cv["studyType"] = degree
           if label:
               cv["headline"] = label
           if image:
@@ -64,6 +61,12 @@ jobs:
               sections = cv.get("sections", {})
               cv["sections"] = {"Summary": [summary], **sections}
           data["cv"] = cv
+          # Map studyType to degree in Education entries
+          sections = cv.get("sections", {})
+          education = sections.get("Education", [])
+          for entry in education:
+              if isinstance(entry, dict) and "studyType" in entry:
+                  entry["degree"] = entry.pop("studyType")
           with open("_data/cv_rendercv.yaml", "w") as f:
               yaml.dump(data, f, allow_unicode=True, sort_keys=False)
           EOF
