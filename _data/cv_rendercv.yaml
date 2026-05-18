@@ -185,4 +185,6 @@ design:
   page:
     size: us-letter
     show_footer: false
-    show_top_note: false
+    show_top_note: true
+  templates:
+    top_note: Auto-generated and downloaded from www.sarojkhadka.com in CURRENT_DATE
