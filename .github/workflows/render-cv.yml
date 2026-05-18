@@ -49,6 +49,9 @@ jobs:
           image = cv.pop("image", None)
           summary = cv.pop("summary", None)
           address = cv.pop("address", {})
+          degree = cv.pop("degree", None)
+          if degree:
+              cv["studyType"] = degree
           if label:
               cv["headline"] = label
           if image:
