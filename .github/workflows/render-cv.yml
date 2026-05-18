@@ -25,13 +25,29 @@ jobs:
       - name: Install RenderCV
         run: |
           pip install -r requirements.txt
-      - name: RenderCV
+      - name: Install yq
         run: |
-          cv_file=$(find _data  -maxdepth 1 -type f \( -name "cv.yaml" -o -name "cv.yml" \))
+          pip install yq
+      - name: Prepare RenderCV input
+        run: |
+          cv_file=$(find _data -maxdepth 1 -type f \( -name "cv.yaml" -o -name "cv.yml" \))
           if [ -z "$cv_file" ]; then
             echo "No cv.yml file found!"
             exit 1
           fi
+          HEADLINE=$(yq '.cv.label' "$cv_file")
+          PHOTO=$(yq '.cv.image' "$cv_file")
+          SUMMARY=$(yq '.cv.summary' "$cv_file")
+          CITY=$(yq '.cv.address.city' "$cv_file")
+          REGION=$(yq '.cv.address.region' "$cv_file")
+          yq 'del(.cv.label, .cv.image, .cv.summary, .cv.address) |
+              .cv.headline = "'"$HEADLINE"'" |
+              .cv.photo = "'"$PHOTO"'" |
+              .cv.location = "'"$CITY"', '"$REGION"'" |
+              .cv.sections.Summary = ["'"$SUMMARY"'"]' \
+              "$cv_file" > /tmp/cv_rendercv.yaml
+      - name: RenderCV
+        run: |
           rendercv_dir=$(find assets -maxdepth 1 -type d -name "rendercv")
           if [ -z "$rendercv_dir" ]; then
             echo "No RenderCV config directory found!"
@@ -42,7 +58,7 @@ jobs:
             echo "Missing RenderCV config file!"
             exit 1
           fi
-          rendercv render $cv_file --settings $settings
+          rendercv render /tmp/cv_rendercv.yaml --settings $settings
           rm assets/rendercv/rendercv_output/*.typ
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
