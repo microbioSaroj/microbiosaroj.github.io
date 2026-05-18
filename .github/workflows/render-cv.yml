@@ -105,3 +105,5 @@ jobs:
             git pull --rebase &&
             git push
           )
+      - name: Debug processed CV
+        run: cat _data/cv_rendercv.yaml
