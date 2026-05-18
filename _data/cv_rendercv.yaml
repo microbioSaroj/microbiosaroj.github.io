@@ -24,9 +24,9 @@ cv:
       score: ''
       courses: ''
       highlights:
-      - Thesis Mechanisms and Regulation of Klebsiella pneumoniae CPS Chain Length
+      - Thesis - Mechanisms and Regulation of Klebsiella pneumoniae CPS Chain Length
         and Attachment.
-      - Advisor Dr. Laura A. Mike.
+      - Advisor - Dr. Laura A. Mike.
     - institution: Tribhuvan University
       location: Kathmandu, Nepal
       area: Medical Microbiology
@@ -34,9 +34,9 @@ cv:
       start_date: 2017
       end_date: 2019
       highlights:
-      - Thesis Susceptibility to Fluoroquinolones and gyrA ser83 Mutation in Salmonella
+      - Thesis - Susceptibility to Fluoroquinolones and gyrA ser83 Mutation in Salmonella
         enterica serovar Typhi at a Referral Hospital of Kathmandu Valley.
-      - Advisor Dr. Megharaj Banjara.
+      - Advisor - Dr. Megharaj Banjara.
     Experience:
     - company: Division of Infectious Diseases, Department of Medicine
       position: Graduate Student Researcher
