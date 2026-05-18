@@ -61,18 +61,6 @@ jobs:
               sections = cv.get("sections", {})
               cv["sections"] = {"Summary": [summary], **sections}
           data["cv"] = cv
-          # Sanitize all highlights to ensure they are strings
-          def sanitize_highlights(obj):
-              if isinstance(obj, dict):
-                  for key, value in obj.items():
-                      if key == "highlights" and isinstance(value, list):
-                          obj[key] = [str(item) if item is not None else "" for item in value]
-                      else:
-                          sanitize_highlights(value)
-              elif isinstance(obj, list):
-                  for item in obj:
-                      sanitize_highlights(item)
-          sanitize_highlights(data)
           with open("_data/cv_rendercv.yaml", "w") as f:
               yaml.dump(data, f, allow_unicode=True, sort_keys=False)
           EOF
@@ -105,5 +93,3 @@ jobs:
             git pull --rebase &&
             git push
           )
-      - name: Debug processed CV
-        run: cat _data/render-cv.yml
