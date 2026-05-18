@@ -106,7 +106,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/SAROJKHADKA_updated_122325.pdf", "_blank");
+          window.open("/assets/rendercv/rendercv_output/Saroj_Khadka_CV.pdf", "_blank");
         },
       },{
         id: 'social-scholar',
