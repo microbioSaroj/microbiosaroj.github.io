@@ -177,6 +177,8 @@ cv:
       - name: Dr. Laura A. Mike
         icon: fa-solid fa-laptop
         reference: Assistant Professor, University of Pittsburgh. Email laura.mike@pitt.edu
+        highlights:
+        - Test
 
       - name: Dr. Megharaj Banjara
         icon: fa-solid fa-laptop
