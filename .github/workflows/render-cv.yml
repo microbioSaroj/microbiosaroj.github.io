@@ -34,15 +34,16 @@ jobs:
           fi
           python3 - "$cv_file" << 'EOF'
           import yaml, sys
-
           with open(sys.argv[1], "r") as f:
               data = yaml.safe_load(f)
-
           # Load and merge locale file directly into cv data
           with open("assets/rendercv/locale.yaml", "r") as f:
               locale_data = yaml.safe_load(f)
           data.update(locale_data)
-
+          # Load and merge design file directly into cv data
+          with open("assets/rendercv/design.yaml", "r") as f:
+              design_data = yaml.safe_load(f)
+          data.update(design_data)
           cv = data.get("cv", {})
           label = cv.pop("label", None)
           image = cv.pop("image", None)
@@ -60,7 +61,6 @@ jobs:
               sections = cv.get("sections", {})
               cv["sections"] = {"Summary": [summary], **sections}
           data["cv"] = cv
-
           with open("_data/cv_rendercv.yaml", "w") as f:
               yaml.dump(data, f, allow_unicode=True, sort_keys=False)
           EOF
@@ -90,5 +90,6 @@ jobs:
           git add -A
           git diff --staged --quiet && echo "Nothing to commit, skipping push" || (
             git commit -m "chore: render the latest CV" &&
+            git pull --rebase &&
             git push
           )
