@@ -1,6 +1,6 @@
 cv:
   name: Saroj Khadka
-  label: Graduate Researcher
+  label: Graduate Student Researcher
   email: khadka@pitt.edu
   location: Pittsburgh, PA
   image: ""
@@ -50,17 +50,24 @@ cv:
         location: University of Pittsburgh, PA
         start_date: 2024
         end_date: 2026
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+        summary:
         highlights:
-          - Relativity
+          - Investigate molecular mechanisms regulating Klebsiella pneumoniae capsular polysaccharide attachment and chain length.
+          - Develop and optimize experimental techniques for bacterial exopolysaccharide research.
+          - Present research findings at departmental, regional, and national scientific conferences.
+          - Mentor undergraduate researchers in laboratory techniques, experimental workflows, and project design.
 
       - company: B-Sure Path Lab & Diagnostic Centre
         position: Molecular Biologist
         location: Biratnagar, Nepal
         start_date: 2020
         end_date: 2021
+        summary: 
         highlights:
-          - Description 1.
+          - Performed routine qRT-PCR testing for COVID-19 diagnosis from clinical specimens.
+          - Trained newly recruited laboratory technicians in molecular diagnostic techniques and workflows.
+          - Managed patient records, diagnostic reporting, and laboratory quality control in compliance with National Public Health Laboratory (Nepal) guidelines.
+          - Coordinated diagnostic reporting with the Ministry of Health COVID-19 Crisis Management Center.
 
     Volunteer:
       - company: People's Climate March
