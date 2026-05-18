@@ -22,7 +22,7 @@ cv:
   sections:
     Education:
       - institution: University of Pittsburgh
-        location: Pittsburgh, PA, USA
+        location: Pennsylvania, USA
         url: https://www.pitt.edu/
         area: Microbiology and Immunology
         studyType: PhD
@@ -31,7 +31,7 @@ cv:
         score: ""
         courses: ""
         highlights:
-          - 'Thesis: Mechanisms and Regulation of Klebsiella pneumoniae CPS Chain Length and Attachment.'
+          - 'Thesis: Mechanisms and Regulation of Klebsiella pneumoniae Capsular Polysaccharide Chain Length and Attachment.'
           - 'Advisor: Dr. Laura A. Mike'
 
       - institution: Tribhuvan University
