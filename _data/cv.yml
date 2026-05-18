@@ -95,20 +95,38 @@ cv:
 
 
     Awards:
-      - title: AHA Predoctoral Fellow
+      - title: MMI Research Fellowship Award
+        authors:
+          - 
+        date: 2024
+        awarder: Department of Medical Microbiology and Immunology, University of Toledo COLMS
+        url: 
+        summary: Awarded by the Department of Medical Microbiology and Immunology, University of Toledo to graduate students who have received a pre-doctoral fellowship before thesis defense.
+
+      - title: MMI Research Scholar Award
+        authors:
+          - 
+        date: 2024
+        awarder: Department of Medical Microbiology and Immunology, University of Toledo COLMS
+        url: 
+        summary: Awarded by the Department of Medical Microbiology and Immunology, University of Toledo to graduate students with a first-author research manuscript accepted or published before thesis defense.
+
+      - title: AHA Predoctoral Fellowship
         authors:
           - "American Heart Association"
-        date: 2022-01-01
+        date: 2023
         awarder: American Heart Association
         url: 
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+        summary: Two-year fellowship awarded by the American Heart Association (AHA) in the form of stipend support to PhD students pursuing research aimed at advancing human health and well-being.
 
-      - title: Graduate Student Researcher
+      - title: Graduate Research Award
         authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: MMI, University of Toledo College of Medicine
-        summary: Awarded for outstanding scientific achievement
+          - 
+        date: 2024
+        awarder: Graduate Student Association, University of Toledo
+        url: 
+        summary: Awarded by the Department of Medical Microbiology and Immunology, University of Toledo to graduate students with a first-author research manuscript accepted or published before thesis defense.
+
 
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
