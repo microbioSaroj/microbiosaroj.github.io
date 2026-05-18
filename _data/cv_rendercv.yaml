@@ -36,8 +36,7 @@ cv:
       - Description 1.
       - Description 2.
     Experience:
-    - company: Division of Infectious Diseases/Department of Medicine, University
-        of Pittsburgh
+    - company: Division of Infectious Diseases, Department of Medicine
       position: Graduate Student Researcher
       location: University of Pittsburgh, PA
       start_date: 2024
@@ -47,7 +46,6 @@ cv:
         and continued to give lectures on campus.
       highlights:
       - Relativity
-      - Description 2.
     - company: B-Sure Path Lab & Diagnostic Centre
       position: Molecular Biologist
       location: Biratnagar, Nepal
@@ -55,7 +53,6 @@ cv:
       end_date: 2021
       highlights:
       - Description 1.
-      - Description 2.
     Volunteer:
     - company: People's Climate March
       position: Lead Organizer
@@ -77,11 +74,11 @@ cv:
       summary: The Nobel Prizes are five separate prizes that, according to Alfred
         Nobel's will of 1895, are awarded to 'those who, during the preceding year,
         have conferred the greatest benefit to humankind.'
-    - title: Max Planck Medal
+    - title: Graduate Student Researcher
       authors:
       - German Physical Society
       date: 2029
-      awarder: German Physical Society
+      awarder: MMI, University of Toledo College of Medicine
       summary: Awarded for outstanding scientific achievement
     Publications:
     - title: Zur Elektrodynamik bewegter Körper
