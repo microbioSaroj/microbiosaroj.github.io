@@ -2,46 +2,44 @@ cv:
   name: Saroj Khadka
   label: Graduate Researcher
   email: khadka@pitt.edu
-  location: Princeton, NJ
+  location: Pittsburgh, PA
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Biomedical Science PhD candidate with strong research experience in bacterial virulence mechanisms, host-pathogen interactions, and microbial gene regulation. Skilled in molecular biology and microbiological techniques, mentoring and science communication. Motivated to build an independent career in biomedical research.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: microbioSaroj
     - network: LinkedIn
-      username: example
+      username: microbioSaroj
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    street: 
+    city: Pittsburgh
+    region: Pennsylvania
+    postalCode: PA 15213
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: University of Pittsburgh
+        location: Pittsburgh, PA, USA
+        url: https://www.pitt.edu/
+        area: Microbiology and Immunology
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
+        start_date: 2024
+        end_date: 2026
         score: ""
         courses: "Theory of Relativity"
         highlights:
           - Description 1.
           - Description 2.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
+      - institution: Tribhuvan University
+        location: Kathmandu, Nepal
+        area: Medical Microbiology
         studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+        start_date: 2017
+        end_date: 2019
         highlights:
           - Description 1.
           - Description 2.
