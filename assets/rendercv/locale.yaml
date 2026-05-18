@@ -1,4 +1,4 @@
 # for more options, see https://docs.rendercv.com/user_guide/yaml_input_structure/locale/
 locale:
-  language: english
-  last_updated: "This CV was auto-generated and downloaded from www.sarojkhadka.com in"
+  language: en
+  last_updated: "This CV was auto-generated and downloaded from [www.sarojkhadka.com](https://www.sarojkhadka.com) in"
