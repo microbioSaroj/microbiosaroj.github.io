@@ -1,8 +1,9 @@
 # for more options, see https://docs.rendercv.com/user_guide/yaml_input_structure/design/
 design:
   theme: harvard
-  show_last_updated_date: true
   page:
+    show_last_updated_date: true
+    show_page_numbering: true
     size: us-letter
     show_footer: false
     show_top_note: false
