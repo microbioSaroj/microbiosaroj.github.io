@@ -2,8 +2,8 @@
 design:
   theme: harvard
   page:
-    show_last_updated_date: true
-    show_page_numbering: true
     size: us-letter
     show_footer: false
-    show_top_note: false
+    show_top_note: true
+  templates:
+    top_note: 'Auto-generated and downloaded from www.sarojkhadka.com in CURRENT_DATE'
