@@ -193,10 +193,10 @@ cv:
       end_date: '2019'
     References:
     - name: Dr. Laura A. Mike
-      icon: fa-solid fa-email
+      icon: fa-solid fa-laptop
       reference: Assistant Professor, University of Pittsburgh. Email laura.mike@pitt.edu
     - name: Dr. Megharaj Banjara
-      icon: fa-solid fa-email
+      icon: fa-solid fa-laptop
       reference: Associate Professor, Tribhuvan University. Email banjaramr@gmail.com
   headline: Graduate Student Researcher
 locale:
