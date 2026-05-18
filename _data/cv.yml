@@ -31,8 +31,8 @@ cv:
         score: ""
         courses: "Theory of Relativity"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Thesis: Mechanisma and Regulation of Klebsiella pneumoniae Capsular Polysaccharide Chain Length and Attachment.
+          - Advisor: Dr. Laura A. Mike
 
       - institution: Tribhuvan University
         location: Kathmandu, Nepal
@@ -41,8 +41,8 @@ cv:
         start_date: 2017
         end_date: 2019
         highlights:
-          - Description 1.
-          - Description 2.
+          - Thesis: Susceptibility to Fluoroquinolones and gyrA ser83 Mutation in Salmonella enterica serovar Typhi at a Referral Hospital of Kathmandu Valley.
+          - Advisor: Dr. Megharaj Banjara.
 
     Experience:
       - company: Division of Infectious Diseases, Department of Medicine
