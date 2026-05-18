@@ -38,7 +38,7 @@ cv:
       - 'Advisor: Dr. Megharaj Banjara'
       degree: MSc
     Experience:
-    - company: Department of Medicine, University of Pittsburgh
+    - company: University of Pittsburgh
       position: Graduate Student Researcher
       location: Pennsylvania, PA, USA
       start_date: 2024
@@ -67,22 +67,73 @@ cv:
         in compliance with National Public Health Laboratory (Nepal) guidelines.
       - Coordinated diagnostic reporting with the Ministry of Health COVID-19 Crisis
         Management Center.
+    - company: Newton Higher Secondary School
+      position: Secondary School Teacher
+      location: Kathmandu, Nepal
+      start_date: 2018
+      end_date: 2019
+      summary: null
+      highlights:
+      - Taught Science and Mathematics to Grade 8 students.
+      - Designed and administered tests, and prepared test score reports to track
+        student progress.
+      - Facilitated parent-teacher meetings to discuss student development and address
+        concerns.
+      - Proctored final examinations and National Education Board exams for Grade
+        8 and Grade 10 students.
+    - company: Kathmandu Model Hospital
+      position: Intern Medical Microbiologist
+      location: Kathmandu, Nepal
+      start_date: 2018
+      end_date: 2019
+      summary: null
+      highlights:
+      - Conducted routine clinical microbiological tests for pathogen isolation and
+        identification in clinical specimens.
+      - Maintained culture collection and surveillance records of multidrug-resistant
+        bacterial isolates for national reporting.
+      - Performed monthly and quarterly quality assurance assays as required by National
+        Public Health Laboratory.
+      - Performed hospital environmental pathogen monitoring.
     Awards:
-    - title: AHA Predoctoral Fellow
+    - title: MMI Research Fellowship Award
+      date: 2024
+      awarder: Department of Medical Microbiology and Immunology, University of Toledo
+        COLMS
       authors:
-      - American Heart Association
-      date: 2022-01-01
-      awarder: American Heart Association
+      - MMI
       url: null
-      summary: The Nobel Prizes are five separate prizes that, according to Alfred
-        Nobel's will of 1895, are awarded to 'those who, during the preceding year,
-        have conferred the greatest benefit to humankind.'
-    - title: Graduate Student Researcher
+      summary: Awarded by the Department of Medical Microbiology and Immunology, University
+        of Toledo to graduate students who have received a pre-doctoral fellowship
+        before thesis defense.
+    - title: MMI Research Scholar Award
+      date: 2024
+      awarder: Department of Medical Microbiology and Immunology, University of Toledo
+        COLMS
       authors:
-      - German Physical Society
-      date: 2029
-      awarder: MMI, University of Toledo College of Medicine
-      summary: Awarded for outstanding scientific achievement
+      - MMI
+      url: null
+      summary: Awarded by the Department of Medical Microbiology and Immunology, University
+        of Toledo to graduate students with a first-author research manuscript accepted
+        or published before thesis defense.
+    - title: AHA Predoctoral Fellowship
+      date: 2023
+      awarder: American Heart Association
+      authors:
+      - MMI
+      url: null
+      summary: Two-year fellowship awarded by the American Heart Association (AHA)
+        in the form of stipend support to PhD students pursuing research aimed at
+        advancing human health and well-being.
+    - title: Graduate Research Award
+      date: 2024
+      awarder: Graduate Student Association, University of Toledo
+      authors:
+      - MMI
+      url: null
+      summary: Awarded by the Department of Medical Microbiology and Immunology, University
+        of Toledo to graduate students with a first-author research manuscript accepted
+        or published before thesis defense.
     Publications:
     - title: Zur Elektrodynamik bewegter Körper
       authors:
@@ -122,45 +173,45 @@ cv:
       keywords: Quantum Mechanics, Quantum Computing, Quantum Information, Quantum
         Cryptography, Quantum Communication, Quantum Teleportation
     Languages:
-    - name: German
+    - name: Nepali
       summary: Native speaker
     - name: English
       summary: Fluent
-    Interests:
-    - name: Physics
-      icon: fa-solid fa-tag
-      keywords: Quantum Mechanics, Quantum Computing, Quantum Information, Quantum
-        Cryptography, Quantum Communication, Quantum Teleportation
     Certificates:
     - name: Machine Learning
       date: 2018-01-01
       issuer: Stanford University
       icon: fa-solid fa-location-dot
-    - name: Quantum Computing
-      date: 2018-01-01
-      issuer: Stanford University
-      icon: fa-solid fa-tag
-    - name: Quantum Information
-      date: 2018-01-01
-      issuer: Stanford University
-      icon: fa-solid fa-envelope
     Projects:
-    - name: Quantum Computing
-      summary: Quantum computing is the use of quantum-mechanical phenomena such as
-        superposition and entanglement to perform computation. Computers that perform
-        quantum computations are known as quantum computers.
+    - name: Systems controlling Klebsiella pneumoniae capsular polysaccharide chain
+        length and attachment
+      summary: Currently investigating the mechanisms and regulatory pathways governing
+        Klebsiella pneumoniae capsule attachment and chain length using various molecular
+        biology and biochemical analytical tools. The ongoing projects aim to unravel
+        the bacterial factors and signaling pathways involved in K. pneumoniae capsular
+        polysaccharide attachment and chain length regulation and their impact on
+        bacterial pathogenesis.
       highlights:
-      - Quantum Teleportation
-      - Quantum Cryptography
-      start_date: 2018-01-01
-      end_date: 2018-01-01
+      - 'Advisor: Dr. Laura A. Mike'
+      start_date: 2022
+      end_date: null
+    - name: Susceptibility to Fluoroquinolones and gyrA ser83 mutation in Salmonella
+        enterica Serovar Typhi at a Referral Hospital of Kathmandu Valley
+      summary: Conducted a hospital-based study on the prevalence of Salmonella Typhi
+        in febrile patients visiting the Kathmandu Model Hospital and evaluated resistance
+        to fluoroquinolones associated with gyrA ser83 mutation in Salmonella Typhi
+        and Paratyphi isolated from the patients.
+      highlights:
+      - 'Advisor: Dr. Megharaj Banjara'
+      start_date: 2018
+      end_date: 2019
     References:
-    - name: Professor John Doe
+    - name: Dr. Laura A. Mike
       icon: fa-solid fa-laptop
       reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
         condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum
         nunc magna at sem. Sed in risus ac felis varius blandit.
-    - name: Professor Jane Smith
+    - name: Dr. Megharaj Banjara
       icon: fa-solid fa-thumbtack
       reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
         condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum
