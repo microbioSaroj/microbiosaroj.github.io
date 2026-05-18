@@ -15,7 +15,7 @@ cv:
       communication. Motivated to build an independent career in biomedical research.
     Education:
     - institution: University of Pittsburgh
-      location: Pennsylvania, USA
+      location: Pennsylvania, PA, USA
       url: https://www.pitt.edu/
       area: Microbiology and Immunology
       start_date: 2024
@@ -38,9 +38,9 @@ cv:
       - 'Advisor: Dr. Megharaj Banjara'
       degree: MSc
     Experience:
-    - company: Division of Infectious Diseases, Department of Medicine
+    - company: Department of Medicine, University of Pittsburgh
       position: Graduate Student Researcher
-      location: University of Pittsburgh, PA
+      location: Pennsylvania, PA, USA
       start_date: 2024
       end_date: 2026
       summary: null
