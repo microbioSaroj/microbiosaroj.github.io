@@ -18,8 +18,8 @@ cv:
       location: Pennsylvania, PA, USA
       url: https://www.pitt.edu/
       area: Microbiology and Immunology
-      start_date: 2024
-      end_date: 2026
+      start_date: '2024'
+      end_date: '2026'
       score: ''
       courses: ''
       highlights:
@@ -30,8 +30,8 @@ cv:
     - institution: Tribhuvan University
       location: Kathmandu, Nepal
       area: Medical Microbiology
-      start_date: 2017
-      end_date: 2019
+      start_date: '2017'
+      end_date: '2019'
       highlights:
       - 'Thesis: Susceptibility to Fluoroquinolones and gyrA ser83 Mutation in Salmonella
         enterica serovar Typhi at a Referral Hospital of Kathmandu Valley.'
@@ -41,8 +41,8 @@ cv:
     - company: University of Pittsburgh
       position: Graduate Student Researcher
       location: Pennsylvania, PA, USA
-      start_date: 2024
-      end_date: 2026
+      start_date: '2024'
+      end_date: '2026'
       summary: null
       highlights:
       - Investigate molecular mechanisms regulating Klebsiella pneumoniae capsular
@@ -56,8 +56,8 @@ cv:
     - company: B-Sure Path Lab & Diagnostic Centre
       position: Molecular Biologist
       location: Biratnagar, Nepal
-      start_date: 2020
-      end_date: 2021
+      start_date: '2020'
+      end_date: '2021'
       summary: null
       highlights:
       - Performed routine qRT-PCR testing for COVID-19 diagnosis from clinical specimens.
@@ -70,8 +70,8 @@ cv:
     - company: Newton Higher Secondary School
       position: Secondary School Teacher
       location: Kathmandu, Nepal
-      start_date: 2018
-      end_date: 2019
+      start_date: '2018'
+      end_date: '2019'
       summary: null
       highlights:
       - Taught Science and Mathematics to Grade 8 students.
@@ -84,8 +84,8 @@ cv:
     - company: Kathmandu Model Hospital
       position: Intern Medical Microbiologist
       location: Kathmandu, Nepal
-      start_date: 2018
-      end_date: 2019
+      start_date: '2018'
+      end_date: '2019'
       summary: null
       highlights:
       - Conducted routine clinical microbiological tests for pathogen isolation and
@@ -97,75 +97,61 @@ cv:
       - Performed hospital environmental pathogen monitoring.
     Awards:
     - title: MMI Research Fellowship Award
-      date: 2024
+      date: '2024'
       awarder: Department of Medical Microbiology and Immunology, University of Toledo
         COLMS
       authors:
-      - MMI
-      url: null
+      - ''
       summary: Awarded by the Department of Medical Microbiology and Immunology, University
         of Toledo to graduate students who have received a pre-doctoral fellowship
         before thesis defense.
     - title: MMI Research Scholar Award
-      date: 2024
+      date: '2024'
       awarder: Department of Medical Microbiology and Immunology, University of Toledo
         COLMS
       authors:
-      - MMI
-      url: null
+      - ''
       summary: Awarded by the Department of Medical Microbiology and Immunology, University
         of Toledo to graduate students with a first-author research manuscript accepted
         or published before thesis defense.
     - title: AHA Predoctoral Fellowship
-      date: 2023
+      date: '2023'
       awarder: American Heart Association
       authors:
-      - MMI
-      url: null
+      - ''
       summary: Two-year fellowship awarded by the American Heart Association (AHA)
         in the form of stipend support to PhD students pursuing research aimed at
         advancing human health and well-being.
     - title: Graduate Research Award
-      date: 2024
+      date: '2024'
       awarder: Graduate Student Association, University of Toledo
       authors:
-      - MMI
-      url: null
+      - ''
       summary: Awarded by the Department of Medical Microbiology and Immunology, University
         of Toledo to graduate students with a first-author research manuscript accepted
         or published before thesis defense.
     Publications:
-    - title: Zur Elektrodynamik bewegter Körper
+    - title: Sugar-Import Suppresses Klebsiella pneumoniae mucoidy in cAMP-CRP-dependent
+        Manner
       authors:
-      - Albert Einstein
-      publisher: Annalen der Physik
-      releaseDate: 1905-06-30
-      url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+      - Saroj Khadka
+      publisher: bioRxiv
+      releaseDate: '2026'
       summary: It concerned an interpretation of the Michelson–Morley experiment and
         the properties of light and time. Special relativity incorporates the principle
         that the speed of light is the same for all inertial observers regardless
         of the state of motion of the source.
-    - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen
-        Gesichtspunkt
+    - title: Urine-mediated Suppression of Hypermucoviscosity is Counteracted by Wzc
+        Mutations
       authors:
-      - Albert Einstein
-      publisher: Annalen der Physik
-      releaseDate: 1905-03-18
-      url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
+      - Saroj Khadka
+      publisher: mSphere
+      releaseDate: '2023'
       summary: In the second paper, he applied the quantum theory to light to explain
         the photoelectric effect. In particular, he used the idea of light quanta
         (photons) to explain experimental results, but stressed the importance of
         the experimental results. The importance of his work on the photoelectric
         effect earned him the Nobel Prize in Physics in 1921.
-    - title: Die Grundlage der allgemeinen Relativitätstheorie
-      authors:
-      - Albert Einstein
-      publisher: Annalen der Physik
-      releaseDate: 1916-03-20
-      url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-      summary: The publication of the theory of general relativity made him internationally
-        famous. He was professor of physics at the universities of Zurich (1909–1911)
-        and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
     Skills:
     - name: Physics
       level: Master
@@ -193,8 +179,8 @@ cv:
         bacterial pathogenesis.
       highlights:
       - 'Advisor: Dr. Laura A. Mike'
-      start_date: 2022
-      end_date: null
+      start_date: '2022'
+      end_date: '2026'
     - name: Susceptibility to Fluoroquinolones and gyrA ser83 mutation in Salmonella
         enterica Serovar Typhi at a Referral Hospital of Kathmandu Valley
       summary: Conducted a hospital-based study on the prevalence of Salmonella Typhi
@@ -203,8 +189,8 @@ cv:
         and Paratyphi isolated from the patients.
       highlights:
       - 'Advisor: Dr. Megharaj Banjara'
-      start_date: 2018
-      end_date: 2019
+      start_date: '2018'
+      end_date: '2019'
     References:
     - name: Dr. Laura A. Mike
       icon: fa-solid fa-laptop
