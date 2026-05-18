@@ -166,3 +166,9 @@ cv:
 locale:
   language: english
   last_updated: Auto-generated and Downloaded from www.sarojkhadka.com in
+design:
+  theme: harvard
+  page:
+    size: us-letter
+    show_footer: false
+    show_top_note: false
