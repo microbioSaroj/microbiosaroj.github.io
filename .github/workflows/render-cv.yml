@@ -35,17 +35,36 @@ jobs:
             echo "No cv.yml file found!"
             exit 1
           fi
-          HEADLINE=$(yq '.cv.label' "$cv_file")
-          PHOTO=$(yq '.cv.image' "$cv_file")
-          SUMMARY=$(yq '.cv.summary' "$cv_file")
-          CITY=$(yq '.cv.address.city' "$cv_file")
-          REGION=$(yq '.cv.address.region' "$cv_file")
-          yq 'del(.cv.label, .cv.image, .cv.summary, .cv.address) |
-              .cv.headline = "'"$HEADLINE"'" |
-              .cv.photo = "'"$PHOTO"'" |
-              .cv.location = "'"$CITY"', '"$REGION"'" |
-              .cv.sections.Summary = ["'"$SUMMARY"'"]' \
-              "$cv_file" > /tmp/cv_rendercv.yaml
+          python3 - "$cv_file" << 'EOF'
+          import yaml, sys
+
+          with open(sys.argv[1], "r") as f:
+              data = yaml.safe_load(f)
+
+          cv = data.get("cv", {})
+
+          label = cv.pop("label", None)
+          image = cv.pop("image", None)
+          summary = cv.pop("summary", None)
+          address = cv.pop("address", {})
+
+          if label:
+              cv["headline"] = label
+          if image:
+              cv["photo"] = image
+          if address:
+              city = address.get("city", "")
+              region = address.get("region", "")
+              cv["location"] = f"{city}, {region}".strip(", ")
+          if summary:
+              sections = cv.get("sections", {})
+              cv["sections"] = {"Summary": [summary], **sections}
+
+          data["cv"] = cv
+
+          with open("/tmp/cv_rendercv.yaml", "w") as f:
+              yaml.dump(data, f, allow_unicode=True, sort_keys=False)
+          EOF
       - name: RenderCV
         run: |
           rendercv_dir=$(find assets -maxdepth 1 -type d -name "rendercv")
