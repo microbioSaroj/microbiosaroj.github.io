@@ -176,8 +176,8 @@ cv:
     References:
       - name: Dr. Laura A. Mike
         icon: fa-solid fa-email
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        reference: Assistant Professor, University of Pittsburgh. Email laura.mike@pitt.edu
 
       - name: Dr. Megharaj Banjara
         icon: fa-solid fa-email
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        reference: Associate Professor, Tribhuvan University. Email banjaramr@gmail.com
