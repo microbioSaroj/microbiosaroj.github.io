@@ -179,7 +179,6 @@ cv:
   headline: Graduate Student Researcher
 locale:
   language: english
-  last_updated: Auto-generated and Downloaded from www.sarojkhadka.com in
 design:
   theme: harvard
   page:
@@ -187,4 +186,4 @@ design:
     show_footer: false
     show_top_note: true
   templates:
-    top_note: User-generated from www.sarojkhadka.com in CURRENT_DATE
+    top_note: User-generated from www.sarojkhadka.com. Last updated in CURRENT_DATE
