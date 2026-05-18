@@ -86,6 +86,8 @@ layout: default
             {% endunless %}
           {% endif %}
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
+          {% comment %} Add the sections that you want to hide {% endcomment }
+          {% if data[0] == 'volunteer' or data[0] == 'certificates' %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
@@ -97,10 +99,8 @@ layout: default
                   {% include resume/education.liquid %}
                 {% when 'work' %}
                   {% include resume/work.liquid %}
-                {% comment %}
                 {% when 'volunteer' %}
                   {% include resume/volunteer.liquid %}
-                {% endcomment %}
                 {% when 'projects' %}
                   {% include resume/projects.liquid %}
                 {% when 'awards' %}
@@ -113,10 +113,8 @@ layout: default
                   {% include resume/languages.liquid %}
                 {% when 'interests' %}
                   {% include resume/interests.liquid %}
-                {% comment %}
                 {% when 'certificates' %}
                   {% include resume/certificates.liquid %}
-                {% endcomment %}
                 {% when 'references' %}
                   {% include resume/references.liquid %}
                 {% else %}
