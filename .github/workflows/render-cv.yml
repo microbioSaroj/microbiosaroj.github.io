@@ -77,7 +77,8 @@ jobs:
             echo "Missing RenderCV config file!"
             exit 1
           fi
-          rendercv render _data/cv_rendercv.yaml --settings $settings
+          locale=$(find $rendercv_dir -maxdepth 1 -type f \( -name "locale.yaml" -o -name "locale.yml" \))
+          rendercv render _data/cv_rendercv.yaml --settings $settings --locale $locale
           rm assets/rendercv/rendercv_output/*.typ
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
