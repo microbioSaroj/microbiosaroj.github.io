@@ -106,4 +106,4 @@ jobs:
             git push
           )
       - name: Debug processed CV
-        run: cat _data/render-cv.yaml
+        run: cat _data/render-cv.yml
