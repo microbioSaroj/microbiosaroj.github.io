@@ -25,9 +25,6 @@ jobs:
       - name: Install RenderCV
         run: |
           pip install -r requirements.txt
-      - name: Install yq
-        run: |
-          pip install yq
       - name: Prepare RenderCV input
         run: |
           cv_file=$(find _data -maxdepth 1 -type f \( -name "cv.yaml" -o -name "cv.yml" \))
@@ -41,13 +38,16 @@ jobs:
           with open(sys.argv[1], "r") as f:
               data = yaml.safe_load(f)
 
-          cv = data.get("cv", {})
+          # Load and merge locale file directly into cv data
+          with open("assets/rendercv/locale.yaml", "r") as f:
+              locale_data = yaml.safe_load(f)
+          data.update(locale_data)
 
+          cv = data.get("cv", {})
           label = cv.pop("label", None)
           image = cv.pop("image", None)
           summary = cv.pop("summary", None)
           address = cv.pop("address", {})
-
           if label:
               cv["headline"] = label
           if image:
@@ -59,7 +59,6 @@ jobs:
           if summary:
               sections = cv.get("sections", {})
               cv["sections"] = {"Summary": [summary], **sections}
-
           data["cv"] = cv
 
           with open("_data/cv_rendercv.yaml", "w") as f:
@@ -77,8 +76,7 @@ jobs:
             echo "Missing RenderCV config file!"
             exit 1
           fi
-          locale=$(find $rendercv_dir -maxdepth 1 -type f \( -name "locale.yaml" -o -name "locale.yml" \))
-          rendercv render _data/cv_rendercv.yaml --settings $settings --locale $locale
+          rendercv render _data/cv_rendercv.yaml --settings $settings
           rm assets/rendercv/rendercv_output/*.typ
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v4
@@ -90,5 +88,7 @@ jobs:
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git add -A
-          git commit -m "chore: render the latest CV"
-          git push
+          git diff --staged --quiet && echo "Nothing to commit, skipping push" || (
+            git commit -m "chore: render the latest CV" &&
+            git push
+          )
