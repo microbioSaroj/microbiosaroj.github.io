@@ -100,7 +100,7 @@ cv:
         awarder: Department of Medical Microbiology and Immunology, University of Toledo COLMS
         authors:
         - ""
-        url: 
+        url: ""
         summary: Awarded by the Department of Medical Microbiology and Immunology, University of Toledo to graduate students who have received a pre-doctoral fellowship before thesis defense.
 
       - title: MMI Research Scholar Award
@@ -108,7 +108,7 @@ cv:
         awarder: Department of Medical Microbiology and Immunology, University of Toledo COLMS
         authors:
         - ""
-        url: 
+        url: ""
         summary: Awarded by the Department of Medical Microbiology and Immunology, University of Toledo to graduate students with a first-author research manuscript accepted or published before thesis defense.
 
       - title: AHA Predoctoral Fellowship
@@ -116,7 +116,7 @@ cv:
         awarder: American Heart Association
         authors:
         - ""
-        url: 
+        url: ""
         summary: Two-year fellowship awarded by the American Heart Association (AHA) in the form of stipend support to PhD students pursuing research aimed at advancing human health and well-being.
 
       - title: Graduate Research Award
@@ -124,7 +124,7 @@ cv:
         awarder: Graduate Student Association, University of Toledo
         authors:
         - ""
-        url: 
+        url: ""
         summary: Awarded by the Department of Medical Microbiology and Immunology, University of Toledo to graduate students with a first-author research manuscript accepted or published before thesis defense.
 
 
@@ -134,7 +134,6 @@ cv:
           - Saroj Khadka
         publisher: bioRxiv
         releaseDate: 2026
-        url: 
         summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
 
       - title: Urine-mediated Suppression of Hypermucoviscosity is Counteracted by Wzc Mutations
@@ -142,7 +141,6 @@ cv:
           - Saroj Khadka
         publisher: mSphere
         releaseDate: 2023
-        url: 
         summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
 
     Skills:
