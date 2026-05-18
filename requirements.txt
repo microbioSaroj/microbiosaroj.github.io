@@ -1,3 +1,4 @@
 nbconvert
 pyyaml
+renderCV[full]
 scholarly
