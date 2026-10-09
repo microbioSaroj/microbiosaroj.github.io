@@ -158,11 +158,6 @@ cv:
       summary: Native speaker
     - name: English
       summary: Fluent
-    Certificates:
-    - name: Machine Learning
-      date: 2018-01-01
-      issuer: Stanford University
-      icon: fa-solid fa-location-dot
     Projects:
     - name: Systems controlling Klebsiella pneumoniae capsular polysaccharide chain
         length and attachment
