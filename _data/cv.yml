@@ -4,7 +4,7 @@ cv:
   email: khadka@pitt.edu
   location: Pittsburgh, PA
   image: ""
-  summary: Biomedical Science PhD candidate with strong research experience in bacterial virulence mechanisms, host-pathogen interactions, and microbial gene regulation. Skilled in molecular biology and microbiological techniques, mentoring and science communication. Motivated to build an independent career in biomedical research.
+  summary: Microbiology PhD graduate with 4+ years of research experience in molecular mechanisms of bacterial virulence, host-pathogen interactions, and microbial gene regulation. Skilled in molecular biology and microbiological techniques, mentoring and science communication. Motivated to build an independent career in biomedical research.
 
   social_networks:
     - network: GitHub
@@ -16,7 +16,7 @@ cv:
     street: 
     city: Pittsburgh
     region: Pennsylvania
-    postalCode: PA 15213
+    postalCode: PA 15219
     countryCode: US
 
   sections:
@@ -31,7 +31,7 @@ cv:
         score: ""
         courses: ""
         highlights:
-          - 'Thesis: Mechanisms and Regulation of Klebsiella pneumoniae Capsular Polysaccharide Chain Length and Attachment.'
+          - 'Thesis: Control of Klebsiella pneumoniae Capsular Polysaccharide Chain Length and Attachment.'
           - 'Advisor: Dr. Laura A. Mike'
 
       - institution: Tribhuvan University
@@ -125,25 +125,19 @@ cv:
 
 
     Publications:
-      - title: Sugar-Import Suppresses Klebsiella pneumoniae mucoidy in cAMP-CRP-dependent Manner
+      - title: Sugar Import Suppresses Klebsiella pneumoniae Mucoidy in a cAMP-CRP-dependent Manner
         authors:
-          - Saroj Khadka
-        publisher: bioRxiv
+          - Saroj Khadka, Gabriella Gates, Drew J. Stark, Katlyn Todd, Bennett A. Allison, Jay Vornhagen, Laura A. Mike
+        publisher: Nature Communications
         releaseDate: 2026
         summary: This study demonstrates a new regulatory mechanism of Klebsiella pneumoniae mucoidy. Here, we show that sugars suppress mucoidy upon import which downregulates rmpADC expression and increases capsule chain length diversity, and as result suppresses mucoidy.
         
       - title: Urine-mediated Suppression of Hypermucoviscosity is Counteracted by Wzc Mutations
         authors:
-          - Saroj Khadka
+          - Saroj Khadka#, Brooke E. Ring#, Lindsey R. Krzeminski, Drew A. Pariseau, Matthew Hathaway, Harry LT Mobley, Laura A. Mike
         publisher: mSphere
         releaseDate: 2023
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        summary: This study reports a new Klebsiella pneumoniae genetic mechanism used to overcome urine-mediated suppression of hypermucoidy phenotype and demonstrates corelation between mucoidy and capsular polysaccharide chain length.
 
     Languages:
       - name: Nepali
@@ -176,10 +170,15 @@ cv:
     References:
       - name: Dr. Laura A. Mike
         icon: fa-solid fa-laptop
-        summary: 'Assistant Professor, University of Pittsburgh, USA. Email: laura.mike@pitt.edu'
+        summary: 'Assistant Professor, University of Pittsburgh, PA, USA. Email: laura.mike@pitt.edu'
         reference: 'Assistant Professor, University of Pittsburgh, USA. Email: laura.mike@pitt.edu'
 
-      - name: Dr. Megharaj Banjara
+      - name: Dr. Patricia Grace
         icon: fa-solid fa-laptop
-        summary: 'Associate Professor, Tribhuvan University, Nepal. Email: banjaramr@gmail.com'
-        reference: 'Associate Professor, Tribhuvan University, Nepal. Email: banjaramr@gmail.com'
+        summary: 'Assistant Professor, University of Pittsburgh, PA, USA. Email: patricia.grace@pitt.edu'
+        reference: 'Assistant Professor, University of Pittsburgh, PA, USA. Email: patricia.grace@pitt.edu'
+
+      - name: Dr. Mark Wooten
+        icon: fa-solid fa-laptop
+        summary: 'Professor, University of Toledo, OH, USA. Email: r.mark.wooten@utoledo.edu'
+        reference: 'Professor, University of Toledo, OH, USA. Email: r.mark.wooten@utoledo.edu'
