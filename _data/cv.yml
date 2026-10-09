@@ -146,12 +146,6 @@ cv:
       - name: English
         summary: "Fluent"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
     Projects:
       - name: Systems controlling Klebsiella pneumoniae capsular polysaccharide chain length and attachment 
         summary: Currently investigating the mechanisms and regulatory pathways governing Klebsiella pneumoniae capsule attachment and chain length using various molecular biology and biochemical analytical tools. The ongoing projects aim to unravel the bacterial factors and signaling pathways involved in K. pneumoniae capsular polysaccharide attachment and chain length regulation and their impact on bacterial pathogenesis. 
